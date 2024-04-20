@@ -60,7 +60,7 @@ const WhatWeDo = () => {
   };
   return (
     <>
-      <div id="about" className="pt_slider mt-1">
+      <div id="about" className="pt_slider">
         <div className="position-relative z-2">
           <div className="position-absolute star_opacity animate-this-element we_bluestar">
             <BlueStar />
