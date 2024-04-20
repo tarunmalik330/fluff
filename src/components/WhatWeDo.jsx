@@ -17,7 +17,7 @@ const WhatWeDo = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3.23,
+          slidesToShow: 3.10,
           slidesToScroll: 1,
         },
       },
