@@ -62,10 +62,10 @@ const WhatWeDo = () => {
     <>
       <div id="about" className="pt_slider mt-1">
         <div className="position-relative z-2">
-          <div className="position-absolute animate-this-element we_bluestar">
+          <div className="position-absolute star_opacity animate-this-element we_bluestar">
             <BlueStar />
           </div>
-          <div className="position-absolute animate-this-element we_greenstar bottom-0">
+          <div className="position-absolute star_opacity animate-this-element we_greenstar bottom-0">
             <GreenStarSvg />
           </div>
           <h2

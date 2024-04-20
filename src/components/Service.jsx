@@ -14,7 +14,7 @@ const Service = () => {
           className="position-absolute service_green end-0 top-0 w-100"
         />
         <Container className="custom_container position-relative">
-          <div className="position-absolute service_star animate-this-element">
+          <div className="position-absolute star_opacity service_star animate-this-element">
             <BlueStar />
           </div>
           <Row className="align-items-center flex-lg-row flex-column-reverse justify-content-lg-between justify-content-center">

@@ -567,16 +567,7 @@ textarea::placeholder {
 
 @media (max-width:992px) {
 
-  .header_bluestar,
-  .header_green1,
-  .header_green2,
-  .connect_greenstar,
-  .connect_bluestar,
-  .need_greenstar,
-  .need_greenstar,
-  .service_star,
-  .we_bluestar,
-  .we_greenstar {
+  .star_opacity {
     opacity: 30% !important;
   }
 

@@ -15,10 +15,10 @@ const NeedUs = () => {
           className="position-absolute start-0 w-100 need_blueimg d-md-block d-none"
         />
         <Container className="custom_container position-relative">
-          <div className="position-absolute need_bluestar animate-this-element end-0">
+          <div className="position-absolute star_opacity need_bluestar animate-this-element end-0">
             <BlueStar />
           </div>
-          <div className="position-absolute need_greenstar animate-this-element">
+          <div className="position-absolute star_opacity need_greenstar animate-this-element">
             <GreenStarSvg />
           </div>
           <h2

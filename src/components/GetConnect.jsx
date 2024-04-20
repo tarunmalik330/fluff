@@ -7,10 +7,10 @@ const GetConnect = () => {
     <>
       <div className="pt_connect">
         <Container className="custom_container position-relative">
-          <div className="position-absolute animate-this-element connect_bluestar">
+          <div className="position-absolute star_opacity animate-this-element connect_bluestar">
             <BlueStar />
           </div>
-          <div className="position-absolute animate-this-element connect_greenstar">
+          <div className="position-absolute star_opacity animate-this-element connect_greenstar">
             <GreenStarSvg />
           </div>
           <h2

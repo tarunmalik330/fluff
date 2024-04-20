@@ -26,7 +26,7 @@ const Trusted = () => {
               className="d-flex flex-column gap-4 align-items-lg-start align-items-center position-relative"
               data-aos="zoom-in-up"
             >
-              <div className="position-absolute trusted_star animate-this-element">
+              <div className="position-absolute star_opacity trusted_star animate-this-element">
                 <GreenStarSvg />
               </div>
               {trustedcard.map((card, a) => {
