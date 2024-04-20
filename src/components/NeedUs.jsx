@@ -57,7 +57,7 @@ const NeedUs = () => {
                         Expertise
                       </h3>
                       <p
-                        className="pe-xl-2 mb-0 text-capitalize ff_poppins fs_xs text_black fw-normal lh_150"
+                        className="pe-xl-2 mb-0 pt-lg-1 text-capitalize ff_poppins fs_xs text_black fw-normal lh_150"
                         data-aos="zoom-in-up"
                       >
                         With years of experience in the industry, we bring
@@ -87,7 +87,7 @@ const NeedUs = () => {
                         Customized Approach
                       </h3>
                       <p
-                        className="pe-xl-2 mb-0 text-capitalize ff_poppins fs_xs text_black fw-normal lh_150"
+                        className="pe-xl-2 mb-0  pt-lg-1 text-capitalize ff_poppins fs_xs text_black fw-normal lh_150"
                         data-aos="zoom-in-up"
                       >
                         We recognize that every business is different. That's
@@ -117,7 +117,7 @@ const NeedUs = () => {
                         Seamless Integration
                       </h3>
                       <p
-                        className="pe-xl-2 mb-0 text-capitalize ff_poppins fs_xs text_black fw-normal lh_150"
+                        className="pe-xl-2 pt-lg-1 mb-0 text-capitalize ff_poppins fs_xs text_black fw-normal lh_150"
                         data-aos="zoom-in-up"
                       >
                         Our solutions seamlessly integrate with your existing
