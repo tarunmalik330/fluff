@@ -164,7 +164,7 @@ const NeedUs = () => {
             </div>
           </div>
           <div
-            className="d-flex justify-content-center pt-lg-5 pt-2 mt-lg-2"
+            className="d-flex justify-content-center pt-lg-5 pt-sm-2 mt-lg-2"
             data-aos="zoom-in-up"
           >
             <CommonButton btnname="Learn more" />

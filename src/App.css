@@ -518,7 +518,7 @@ textarea::placeholder {
   padding-top: 176px;
 }
 
-.mw_594 {
+.fluff_img {
   max-width: 594px;
 }
 
@@ -631,7 +631,7 @@ textarea::placeholder {
     padding-top: 70px;
   }
 
-  .mw_594 {
+  .fluff_img {
     max-width: 480px;
   }
 
@@ -677,7 +677,7 @@ textarea::placeholder {
   }
 
   .pt_need {
-    padding-top: 50px;
+    padding-top: 25px;
   }
 
   .py_header {
@@ -710,8 +710,8 @@ textarea::placeholder {
     padding-top: 50px;
   }
 
-  .mw_594 {
-    max-width: 294px;
+  .fluff_img {
+    max-width: 250px;
   }
 
   .mw_402 {

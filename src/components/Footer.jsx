@@ -10,7 +10,7 @@ const Footer = () => {
           <img
             src={fluffimg}
             alt="fluffimg"
-            className="w-100 mw_594 translate_y"
+            className="w-100 fluff_img translate_y"
           />
         </div>
         <div className="bg_green footer_spacing">
