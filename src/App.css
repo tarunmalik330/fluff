@@ -240,6 +240,8 @@
   border-radius: 12px;
   padding: 6px 18px 6px 22px;
   max-width: 1207px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .pagelogo {
@@ -723,7 +725,7 @@ textarea::placeholder {
 
 @media (min-width:1200px) {
   .custom_container {
-    max-width: 1140px !important;
+    max-width: 1164px !important;
   }
 
   .pt_slider {

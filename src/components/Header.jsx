@@ -77,7 +77,7 @@ const Header = () => {
         <Container className="custom_container">
           <Row
             id="home"
-            className="align-items-center py_header justify-content-center position-relative"
+            className="align-items-center py_header position-relative"
           >
             <div className="position-absolute start-50 end-50 animate-this-element header_bluestar d-sm-block d-none">
               <BlueStar />
