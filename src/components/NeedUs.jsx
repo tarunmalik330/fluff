@@ -81,7 +81,7 @@ const NeedUs = () => {
                   <Col className="col-xl-10 col-11">
                     <div className="ps-xl-4 pb-4">
                       <h3
-                        className="mb-0 text-capitalize ff_bakbak fs_sm text-black lh_140"
+                        className="mb-2 text-capitalize ff_bakbak fs_sm text-black lh_140"
                         data-aos="zoom-in-up"
                       >
                         Customized Approach
@@ -111,7 +111,7 @@ const NeedUs = () => {
                   <Col className="col-xl-10 col-11">
                     <div className="ps-xl-4 pb-4">
                       <h3
-                        className="mb-0 text-capitalize ff_bakbak fs_sm text-black lh_140"
+                        className="mb-2 text-capitalize ff_bakbak fs_sm text-black lh_140"
                         data-aos="zoom-in-up"
                       >
                         Seamless Integration
@@ -141,7 +141,7 @@ const NeedUs = () => {
                   <Col className="col-xl-10 col-11">
                     <div className="ps-xl-4 pb-4">
                       <h3
-                        className="mb-0 text-capitalize ff_bakbak fs_sm text-black lh_140"
+                        className="mb-2 text-capitalize ff_bakbak fs_sm text-black lh_140"
                         data-aos="zoom-in-up"
                       >
                         Data-Driven Insights
