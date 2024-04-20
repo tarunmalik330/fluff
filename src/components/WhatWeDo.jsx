@@ -60,7 +60,7 @@ const WhatWeDo = () => {
   };
   return (
     <>
-      <div id="about" className="pt_slider">
+      <div id="about" className="pt_slider mt-1">
         <div className="position-relative z-2">
           <div className="position-absolute animate-this-element we_bluestar">
             <BlueStar />
@@ -75,7 +75,7 @@ const WhatWeDo = () => {
             What We Do
           </h2>
           <p
-            className="pt-lg-1 mb-0 text-center ff_poppins fw-normal fs_xs lh_150 text_black px_12 text-capitalize"
+            className="mt-lg-1 mb-0 text-center ff_poppins fw-normal fs_xs lh_150 text_black px_12 text-capitalize"
             data-aos="zoom-in"
           >
             <span className="d-lg-block">
