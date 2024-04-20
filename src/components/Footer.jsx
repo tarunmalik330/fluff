@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap";
-import fluffimg from "../assets/images/png/fluffimg.png";
+import fluffimg from "../assets/images/webp/fluffimg.webp";
 import { footerlink } from "./common/MapData";
 
 const Footer = () => {
@@ -24,6 +24,7 @@ const Footer = () => {
                   return (
                     <div key={e}>
                       <a
+                        className="footer_link"
                         href={icon.link}
                         aria-label={icon.label}
                         target="blank"

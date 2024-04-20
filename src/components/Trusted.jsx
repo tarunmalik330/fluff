@@ -1,12 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { trustedcard } from "./common/MapData";
-import trustedimg from "../assets/images/png/trustedimg.png";
+import trustedimg from "../assets/images/webp/serviceimg.webp";
+import { GreenStarSvg } from "./common/Icon";
 
 const Trusted = () => {
   return (
     <>
-      <div className="pt_trusted">
+      <div id="pricing" className="pt_trusted">
         <Container className="custom_container">
           <h2 className="ff_bakbak fw-normal fs_lg text-black text_shadow text-center lh_130 mb-lg-5 mb-4">
             Why We're Trusted
@@ -14,8 +15,11 @@ const Trusted = () => {
           <Row className="align-items-center justify-content-center">
             <Col
               lg={6}
-              className="col-12 d-flex flex-column gap-4 align-items-lg-start align-items-center"
+              className="col-12 d-flex flex-column gap-4 align-items-lg-start align-items-center position-relative"
             >
+              <div className="position-absolute trusted_star animate-this-element">
+                <GreenStarSvg />
+              </div>
               {trustedcard.map((card, a) => {
                 return (
                   <div key={a} className="trusted_card h-100">

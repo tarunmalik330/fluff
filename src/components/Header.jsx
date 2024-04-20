@@ -3,7 +3,7 @@ import { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import pagelogo from "../assets/images/png/pagelogo.png";
+import pagelogo from "../assets/images/webp/pagelogo.webp";
 import CommonButton from "./common/CommonButton";
 import Hamburger from "hamburger-react";
 import {
@@ -13,7 +13,7 @@ import {
   BlueStar,
   GreenStarSvg,
 } from "./common/Icon";
-import headerimg from "../assets/images/png/headerimg.png";
+import headerimg from "../assets/images/webp/headerimg.webp";
 
 const Header = () => {
   const [show, setshow] = useState(false);
@@ -41,7 +41,7 @@ const Header = () => {
                 <li onClick={() => setshow(!show)}>
                   <a
                     className="ff_poppins fw-normal fs_xs nav_link lh_150"
-                    href="#Home"
+                    href="#home"
                   >
                     Home
                   </a>
@@ -49,7 +49,7 @@ const Header = () => {
                 <li onClick={() => setshow(!show)}>
                   <a
                     className="ff_poppins fw-normal fs_xs nav_link lh_150"
-                    href="#about"
+                    href="#benefit"
                   >
                     Your benefits
                   </a>
@@ -78,7 +78,10 @@ const Header = () => {
               </div>
             </div>
           </div>
-          <Row className="align-items-center py_header justify-content-center position-relative">
+          <Row
+            id="home"
+            className="align-items-center py_header justify-content-center position-relative"
+          >
             <div className="position-absolute start-50 end-50 animate-this-element header_bluestar d-sm-block d-none">
               <BlueStar />
             </div>

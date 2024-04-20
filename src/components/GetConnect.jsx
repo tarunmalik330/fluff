@@ -1,12 +1,18 @@
-import React from "react";
 import { Container } from "react-bootstrap";
-import connectimg from "../assets/images/png/connectimg.png";
+import connectimg from "../assets/images/webp/connectimg.webp";
+import { BlueStar, GreenStarSvg } from "./common/Icon";
 
 const GetConnect = () => {
   return (
     <>
       <div className="pt_connect">
-        <Container className="custom_container">
+        <Container className="custom_container position-relative">
+          <div className="position-absolute animate-this-element connect_bluestar">
+            <BlueStar />
+          </div>
+          <div className="position-absolute animate-this-element connect_greenstar">
+            <GreenStarSvg />
+          </div>
           <h2 className="ff_bakbak fw-normal fs_lg text-black text_shadow text-center lh_130 mb-lg-5 mb-4">
             Get Connect With Us
           </h2>

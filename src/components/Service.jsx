@@ -1,12 +1,12 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { FoodSvg, HealthSvg, BeautySvg, PetSvg, BlueStar } from "./common/Icon";
-import serviceimg from "../assets/images/png/serviceimg.png";
+import serviceimg from "../assets/images/webp/serviceimg.webp";
 
 const Service = () => {
   return (
     <>
-      <div className="pt_service">
+      <div id="benefit" className="pt_service">
         <Container className="custom_container position-relative">
           <div className="position-absolute service_star animate-this-element">
             <BlueStar />

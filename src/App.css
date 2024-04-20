@@ -8,6 +8,40 @@
   text-decoration: none !important;
 }
 
+/* ---------------------------------------back-to-top-------------------------------- */
+.back_to_top {
+  position: fixed;
+  z-index: 2;
+  bottom: 3%;
+  right: 2%;
+  height: 54px;
+  width: 54px;
+  border-radius: 50px;
+  -webkit-animation: mover 3000ms infinite ease-in-out !important;
+  animation: mover 3000ms infinite ease-in-out !important;
+  border: 2px solid white;
+  transition: all 300ms linear;
+}
+
+.back_to_top:hover,
+.footer_link:hover {
+  filter: drop-shadow(0px 5px 8px white);
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(0px);
+  }
+
+  70% {
+    transform: translateY(-7px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
 /* ---------------------------commom-classes-------------------------- */
 /* -------------------font-family------------------ */
 .ff_poppins {
@@ -299,6 +333,11 @@
   bottom: -10%;
 }
 
+.need_greenstar {
+  left: -7%;
+  top: 5%;
+}
+
 .roadmap {
   width: 4px;
   height: 100%;
@@ -325,6 +364,11 @@
 }
 
 /* -------------------------Why We're Trusted--------------------- */
+.trusted_star {
+  left: -17%;
+  top: 25% !important;
+}
+
 .trusted_card {
   padding: 55px 30px 55px 30px;
   border-radius: 20px;
@@ -397,6 +441,17 @@ textarea::placeholder {
   max-width: 646px;
 }
 
+.connect_bluestar {
+  right: -8%;
+  top: 21%;
+}
+
+.connect_greenstar {
+  left: -8%;
+  bottom: -18%;
+}
+
+
 /* -------------------------------------footer------------------------------ */
 .pt_footer {
   padding-top: 176px;
@@ -416,6 +471,11 @@ textarea::placeholder {
 
 .footer_line {
   border-top: 1px solid #FFFFFF0D
+}
+
+
+.footer_link {
+  transition: all 300ms linear;
 }
 
 @media (max-width:992px) {

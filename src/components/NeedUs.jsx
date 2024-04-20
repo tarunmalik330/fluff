@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import qualitywork from "../assets/images/png/qualitywork.png";
+import qualitywork from "../assets/images/webp/qualitywork.webp";
 import CommonButton from "./common/CommonButton";
-import { BlueStar } from "./common/Icon";
+import { BlueStar, GreenStarSvg } from "./common/Icon";
 
 // import { useOverflowHidden } from "./Hooks";
 // import { useEffect } from "react";
@@ -42,6 +42,9 @@ const NeedUs = () => {
         <Container className="custom_container position-relative">
           <div className="position-absolute need_bluestar animate-this-element end-0">
             <BlueStar />
+          </div>
+          <div className="position-absolute need_greenstar animate-this-element">
+            <GreenStarSvg />
           </div>
           <h2 className="ff_bakbak fw-normal fs_lg text-black text_shadow text-center lh_130 mb-sm-5 mb-4">
             Why You Need Us
