@@ -39,7 +39,7 @@ function App() {
         <Footer />
       </div>
       <div onClick={() => top()} className={backToTop ? "back_to_top bg_green cursor_pointer d-flex justify-content-center align-items-center" : "d-none"}>
-        <img src={backtotop} alt='backtotop' />
+        <img src={backtotop} alt='backtotop' className='w-50 h-50' />
       </div>
     </ >
   );

@@ -15,8 +15,8 @@ const Footer = () => {
         </div>
         <div className="bg_green pt_67">
           <Container className="custom_container">
-            <div className="py-4 footer_line d-flex align-items-center align-items-sm-start justify-content-between flex-sm-row flex-column-reverse">
-              <p className="mb-0 text_grey ff_poppins fs_xs fw-normal lh_150 pt-sm-0 pt-4">
+            <div className="py-3 footer_line d-flex align-items-center align-items-sm-start justify-content-between flex-sm-row flex-column-reverse">
+              <p className="mb-0 text_grey ff_poppins text-capitalize fs_xs fw-normal lh_150 pt-sm-0 pt-4">
                 Copyright © {new Date().getFullYear()} FLUFF All Rights reserved
               </p>
               <div className="d-flex gap_14">

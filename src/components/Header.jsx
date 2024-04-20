@@ -49,9 +49,9 @@ const Header = () => {
                 <li onClick={() => setshow(!show)}>
                   <a
                     className="ff_poppins fw-normal fs_xs nav_link lh_150"
-                    href="#benefit"
+                    href="#about"
                   >
-                    Your benefits
+                    About
                   </a>
                 </li>
                 <li onClick={() => setshow(!show)}>
@@ -105,7 +105,7 @@ const Header = () => {
               <h1 className="pt-lg-1 ff_bakbak fw-normal fs_xl text-black lh_120 text_shadow mb-3 text-center text-lg-start">
                 We help turn your customers into superfans
               </h1>
-              <p className="pt-1 ff_poppins fw-normal fs_xs text_black lh_150 mb-3">
+              <p className="pt-1 ff_poppins fw-normal fs_xs text_black lh_150 mb-3 text-capitalize">
                 <span className="d-lg-block">
                   CX so good, it'll make your mom proud and your
                 </span>{" "}

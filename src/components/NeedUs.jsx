@@ -46,18 +46,17 @@ const NeedUs = () => {
           <div className="position-absolute need_greenstar animate-this-element">
             <GreenStarSvg />
           </div>
-          <h2 className="ff_bakbak fw-normal fs_lg text-black text_shadow text-center lh_130 mb-sm-5 mb-4">
+          <h2 className="ff_bakbak fw-normal text-capitalize fs_lg text-black text_shadow text-center lh_130 mb-sm-5 mb-4">
             Why You Need Us
           </h2>
           <div className="d-flex flex-lg-row flex-column gap-lg-0 gap-sm-5 gap-4">
-            <div className="mw_465 px-lg-0 px-5">
+            <div className="mw_465 px-lg-0 px-5 mt-lg-5 pt-lg-5">
               <img
                 src={qualitywork}
                 alt="qualitywork"
-                className="w-100 mw_465"
+                className="w-100 mw_465 mt-lg-3"
               />
             </div>
-
             <div className="mw_630 px-sm-0 px_12">
               <div className="position-relative h-100 ms-lg-5">
                 <div className="position-absolute h-100 start-0 top-0 roadmap_line"></div>
@@ -71,11 +70,11 @@ const NeedUs = () => {
                     </div>
                   </Col>
                   <Col className="col-xl-10 col-11">
-                    <div className="ps-xl-4">
-                      <h3 className="mb-2 pb-1 text-capitalize ff_bakbak fs_md text-black lh_140">
+                    <div className="ps-xl-4 pb-4">
+                      <h3 className="mb-2 pb-1 text-capitalize ff_bakbak fs_sm text-black lh_140">
                         Expertise
                       </h3>
-                      <p className="pe-xl-2 ff_poppins fs_xs text_black fw-normal lh_150">
+                      <p className="pe-xl-2 mb-0 text-capitalize ff_poppins fs_xs text_black fw-normal lh_150">
                         With years of experience in the industry, we bring
                         unparalleled expertise to the table. Our team comprises
                         seasoned professionals who understand the intricacies of
@@ -95,11 +94,11 @@ const NeedUs = () => {
                     </div>
                   </Col>
                   <Col className="col-xl-10 col-11">
-                    <div className="ps-xl-4">
-                      <h3 className="mb-0 text-capitalize ff_bakbak fs_md text-black lh_140">
+                    <div className="ps-xl-4 pb-4">
+                      <h3 className="mb-0 text-capitalize ff_bakbak fs_sm text-black lh_140">
                         Customized Approach
                       </h3>
-                      <p className="pe-xl-2 ff_poppins fs_xs text_black fw-normal lh_150">
+                      <p className="pe-xl-2 mb-0 text-capitalize ff_poppins fs_xs text_black fw-normal lh_150">
                         We recognize that every business is different. That's
                         why we take a personalized approach to every client
                         engagement. By understanding your brand's specific
@@ -119,11 +118,11 @@ const NeedUs = () => {
                     </div>
                   </Col>
                   <Col className="col-xl-10 col-11">
-                    <div className="ps-xl-4">
-                      <h3 className="mb-0 text-capitalize ff_bakbak fs_md text-black lh_140">
+                    <div className="ps-xl-4 pb-4">
+                      <h3 className="mb-0 text-capitalize ff_bakbak fs_sm text-black lh_140">
                         Seamless Integration
                       </h3>
-                      <p className="pe-xl-2 ff_poppins fs_xs text_black fw-normal lh_150">
+                      <p className="pe-xl-2 mb-0 text-capitalize ff_poppins fs_xs text_black fw-normal lh_150">
                         Our solutions seamlessly integrate with your existing
                         systems and processes, ensuring minimal disruption to
                         your operations. Whether you're looking to enhance your
@@ -143,11 +142,11 @@ const NeedUs = () => {
                     </div>
                   </Col>
                   <Col className="col-xl-10 col-11">
-                    <div className="ps-xl-4">
-                      <h3 className="mb-0 text-capitalize ff_bakbak fs_md text-black lh_140">
+                    <div className="ps-xl-4 pb-4">
+                      <h3 className="mb-0 text-capitalize ff_bakbak fs_sm text-black lh_140">
                         Data-Driven Insights
                       </h3>
-                      <p className="pe-xl-2 ff_poppins fs_xs text_black fw-normal lh_150">
+                      <p className="pe-xl-2 mb-0 text-capitalize ff_poppins fs_xs text_black fw-normal lh_150">
                         In today's data-driven world, insights are everything.
                         We leverage advanced analytics and robust data analysis
                         techniques to uncover actionable insights that inform

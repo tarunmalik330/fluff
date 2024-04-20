@@ -14,8 +14,8 @@
   z-index: 2;
   bottom: 3%;
   right: 2%;
-  height: 54px;
-  width: 54px;
+  height: 40px;
+  width: 40px;
   border-radius: 50px;
   -webkit-animation: mover 3000ms infinite ease-in-out !important;
   animation: mover 3000ms infinite ease-in-out !important;
@@ -174,10 +174,6 @@
   animation: name-of-animation 5s infinite;
 }
 
-.overflow_hidden {
-  overflow: hidden;
-}
-
 /* ---------------------------header------------------ */
 .header_bluestar {
   top: 10%;
@@ -186,10 +182,12 @@
 .header_green1 {
   left: -17%;
   bottom: 13%;
+  animation: name-of-animation 4s infinite !important;
 }
 
 .header_green2 {
   right: -17%;
+  animation: name-of-animation 6s infinite !important;
 }
 
 .nav_bar {
@@ -243,10 +241,12 @@
 .we_bluestar {
   top: 23%;
   left: 19%;
+  animation: name-of-animation 3s infinite !important;
 }
 
 .we_greenstar {
   right: 7%;
+  animation: name-of-animation 4s infinite !important;
 }
 
 .px_12 {
@@ -255,7 +255,7 @@
 }
 
 .slide_card {
-  padding: 32px 8px 32px 8px;
+  padding: 24px 8px 23px 8px;
   background: #BFE6EF2B;
   border-radius: 20px;
   transition: all 300ms linear;
@@ -331,6 +331,7 @@
 
 .need_bluestar {
   bottom: -10%;
+  animation: name-of-animation 2s infinite !important;
 }
 
 .need_greenstar {
@@ -367,6 +368,7 @@
 .trusted_star {
   left: -17%;
   top: 25% !important;
+  animation: name-of-animation 8s infinite !important;
 }
 
 .trusted_card {
@@ -425,7 +427,7 @@ textarea {
   padding: 11px 0 11px 11px;
   outline: none;
   border-radius: 8px;
-  resize: none;
+  resize: none !important;
   height: 106px;
 }
 
@@ -444,11 +446,13 @@ textarea::placeholder {
 .connect_bluestar {
   right: -8%;
   top: 21%;
+  animation: name-of-animation 8s infinite !important;
 }
 
 .connect_greenstar {
   left: -8%;
   bottom: -18%;
+  animation: name-of-animation 4s infinite !important;
 }
 
 
@@ -546,9 +550,30 @@ textarea::placeholder {
   .pt_need {
     padding-top: 70px;
   }
+
+  .overflow_hidden {
+    overflow: hidden;
+  }
 }
 
 @media (max-width:576px) {
+  .header_bluestar,
+  .header_green1,
+  .header_green2,
+  .connect_greenstar,
+  .connect_bluestar,
+  .need_greenstar,
+  .need_greenstar,
+  .service_star,
+  .we_bluestar,
+  .we_greenstar {
+    opacity: 40% !important;
+  }
+
+  .mw_497 {
+    max-width: 310px;
+  }
+
   .slide_card {
     padding: 32px 12px 32px 12px;
   }

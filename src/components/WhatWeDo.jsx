@@ -60,7 +60,7 @@ const WhatWeDo = () => {
   };
   return (
     <>
-      <div className="pt_slider">
+      <div id="about" className="pt_slider">
         <div className="position-relative z-2">
           <div className="position-absolute animate-this-element we_bluestar">
             <BlueStar />
@@ -71,7 +71,7 @@ const WhatWeDo = () => {
           <h2 className="ff_bakbak fw-normal fs_lg text-black text_shadow text-center lh_130 mb-3">
             What We Do
           </h2>
-          <p className="pt-lg-1 mb-0 text-center ff_poppins fw-normal fs_xs lh_150 text_black px_12">
+          <p className="pt-lg-1 mb-0 text-center ff_poppins fw-normal fs_xs lh_150 text_black px_12 text-capitalize">
             <span className="d-lg-block">
               We specialize in helping businesses create exceptional customer
               experiences that drive loyalty,
@@ -93,11 +93,11 @@ const WhatWeDo = () => {
                 <div className="px_12" key={e}>
                   <div className="slide_card d-flex h-100 w-100 flex-column justify-content-center align-items-center">
                     {slides.svg}
-                    <p className="pt-1 mt-2 mb-2 ff_bakbak fs_sm text-black lh_140 text-center">
+                    <p className="pt-1 mt-2 mb-2 ff_bakbak text-capitalize fs_sm text-black lh_140 text-center">
                       {slides.heading}
                     </p>
                     <p
-                      className={`${slides.textwidth} ff_poppins fw-normal fs_xs text_black text-center lh_150`}
+                      className={`${slides.textwidth} ff_poppins text-capitalize fw-normal fs_xs text_black text-center lh_150`}
                     >
                       {slides.paragraph}
                     </p>
