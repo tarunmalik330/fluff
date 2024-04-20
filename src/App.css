@@ -734,7 +734,7 @@ textarea::placeholder {
 @media (min-width:1200px) {
   .heading_line {
     top: 10%;
-    right: 21px;
+    right: 26px;
   }
 
   .custom_container {
