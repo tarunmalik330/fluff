@@ -95,9 +95,7 @@ const Header = () => {
                 data-aos="fade-up-right"
               >
                 <GreenStar />
-                <div
-                  className="d-flex align-items-center gap_17"
-                >
+                <div className="d-flex align-items-center gap_17">
                   <p className="text-capitalize ff_bakbak text-black fs_xs lh_150 mb-0 text-nowrap">
                     Welcome to FLUFF
                   </p>
@@ -136,7 +134,7 @@ const Header = () => {
               <img
                 src={headerimg}
                 alt="headerimg"
-                className="w-100 mw_510 h_435 object-fit-cover"
+                className="w-100 mw_566 h_448 object-fit-cover"
                 data-aos="fade-left"
               />
             </Col>
