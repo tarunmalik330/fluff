@@ -79,7 +79,7 @@ const Header = () => {
             id="home"
             className="align-items-center py_header position-relative"
           >
-            <div className="position-absolute star_opacity start-50 end-50 animate-this-element header_bluestar d-sm-block d-none">
+            <div className="position-absolute star_opacity start-50 end-50 animate-this-element header_bluestar d-md-block d-none">
               <BlueStar />
             </div>
             <Col
