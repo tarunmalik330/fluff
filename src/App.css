@@ -307,6 +307,7 @@
   border-radius: 20px;
   transition: all 300ms linear;
   border: 1px solid transparent;
+  max-height: 240px;
 }
 
 .slide_card:hover {
