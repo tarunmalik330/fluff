@@ -622,7 +622,7 @@ textarea::placeholder {
   }
 
   :root {
-    --fs-xs: 18px;
+    --fs-xs: 18px !important;
     --fs-xl: 50px;
     --fs-lg: 42px;
   }
