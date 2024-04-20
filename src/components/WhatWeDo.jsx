@@ -15,9 +15,9 @@ const WhatWeDo = () => {
     autoplaySpeed: 3000,
     responsive: [
       {
-        breakpoint: 1400,
+        breakpoint: 1024,
         settings: {
-          slidesToShow: 3.54,
+          slidesToShow: 3.23,
           slidesToScroll: 1,
         },
       },
@@ -65,7 +65,7 @@ const WhatWeDo = () => {
           <div className="position-absolute star_opacity animate-this-element we_bluestar">
             <BlueStar />
           </div>
-          <div className="position-absolute star_opacity animate-this-element we_greenstar bottom-0">
+          <div className="position-absolute d-sm-block d-none star_opacity animate-this-element we_greenstar bottom-0">
             <GreenStarSvg />
           </div>
           <h2
@@ -91,7 +91,7 @@ const WhatWeDo = () => {
           </p>
         </div>
       </div>
-      <div className="pt-lg-4 pt-0 mt-lg-1 overflow-hidden">
+      <div className="pt-lg-4 pt-md-4 pt-0 mt-lg-1 overflow-hidden">
         <Slider {...settings}>
           {slidedata.map((slides, e) => {
             return (

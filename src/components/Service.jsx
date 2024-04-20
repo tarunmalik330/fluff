@@ -32,10 +32,16 @@ const Service = () => {
                 className="mt-lg-1 mb-lg-5 mb-3 text-capitalize ff_poppins fw-normal fs_xs text_black lh_150 text-lg-start text-center"
                 data-aos="zoom-in-up"
               >
-                With years of experience in the industry, we bring unparalleled
-                expertise to the table. Our team comprises seasoned
-                professionals who understand the intricacies of customer
-                behavior.
+                <span className="d-lg-block">
+                  With years of experience in the industry, we bring
+                </span>
+                <span className="d-lg-block">
+                  unparalleled expertise to the table. Our team comprises
+                </span>
+                <span className="d-lg-block">
+                  seasoned professionals who understand the intricacies
+                </span>
+                of customer behavior.
               </p>
               <div className="d-flex gap_97 mb-5" data-aos="zoom-in-up">
                 <p className="ff_bakbak fw-normal fs_sm text-capitalize text-black lh_140 mb-0 d-flex align-items-center gap-2 gap-lg-3">

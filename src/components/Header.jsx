@@ -57,12 +57,12 @@ const Header = () => {
                     Pricing
                   </a>
                 </li>
-                <li className="d-xl-none d-block">
+                <li className="d-lg-none d-block">
                   {" "}
                   <CommonButton btnname="Contact us" />
                 </li>
               </ul>
-              <div className="d-xl-block d-none">
+              <div className="d-lg-block d-none">
                 <CommonButton btnname="Contact us" />
               </div>
               <div
