@@ -11,8 +11,33 @@ import GetConnect from './components/GetConnect';
 import Footer from './components/Footer';
 import { useState, useEffect } from 'react';
 import backtotop from "./assets/images/webp/backtotop.webp"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Aos from 'aos';
+import Loader from './components/Loader';
 
 function App() {
+  // -------------------preloader------------------------
+  document.getElementById('root')
+  const [screenLoading, setScreenLoading] = useState(false);
+  useEffect(() => {
+    document.body.classList.add("body-bg")
+    setScreenLoading(true);
+    setTimeout(() => {
+      document.body.classList.remove("body-bg")
+      setScreenLoading(false);
+    }, 2500);
+  }, []);
+  // -----------------------Aos-------------------------
+  useEffect(() => {
+    AOS.init(
+      {
+        once: true,
+        duration: 1200,
+      }
+    );
+    Aos.refresh()
+  });
   // ----------------backToTop----------------
   const top = () => {
     document.documentElement.scrollTop = 0;
@@ -29,19 +54,26 @@ function App() {
   }, []);
   return (
     <>
-      <div className='overflow-hidden'>
-        <Header />
-        <WhatWeDo />
-        <Service />
-        <NeedUs />
-        <Trusted />
-        <GetConnect />
-        <Footer />
-      </div>
-      <div onClick={() => top()} className={backToTop ? "back_to_top bg_green cursor_pointer d-flex justify-content-center align-items-center" : "d-none"}>
-        <img src={backtotop} alt='backtotop' className='w-50 h-50' />
-      </div>
-    </ >
+      {screenLoading ? (
+        <Loader />
+      ) : (
+        <>
+          <div className='overflow-hidden'>
+            <Header />
+            <WhatWeDo />
+            <Service />
+            <NeedUs />
+            <Trusted />
+            <GetConnect />
+            <Footer />
+          </div>
+          <div onClick={() => top()} className={backToTop ? "back_to_top bg_green cursor_pointer d-flex justify-content-center align-items-center" : "d-none"}>
+            <img src={backtotop} alt='backtotop' className='w-50 h-50' />
+          </div>
+        </ >
+      )
+      }
+    </>
   );
 }
 

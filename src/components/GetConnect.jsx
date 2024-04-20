@@ -13,14 +13,20 @@ const GetConnect = () => {
           <div className="position-absolute animate-this-element connect_greenstar">
             <GreenStarSvg />
           </div>
-          <h2 className="ff_bakbak fw-normal fs_lg text-black text_shadow text-center lh_130 mb-lg-5 mb-4">
+          <h2
+            className="ff_bakbak fw-normal fs_lg text-black text_shadow text-center lh_130 mb-lg-5 mb-4"
+            data-aos="zoom-in-up"
+          >
             Get Connect With Us
           </h2>
           <div className="d-flex justify-content-between align-items-center flex-xl-row flex-column">
-            <div className="mw_402 w-100">
+            <div className="mw_402 w-100" data-aos="zoom-in-up">
               <img src={connectimg} alt="connectimg" className="mw_402" />
             </div>
-            <div className="form_width w-100 d-flex gap_18 flex-column pt-xl-0 pt-5">
+            <div
+              className="form_width w-100 d-flex gap_18 flex-column pt-xl-0 pt-5"
+              data-aos="zoom-in-up"
+            >
               <div className="d-flex gap_18">
                 <input
                   type="text"

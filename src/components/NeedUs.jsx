@@ -21,7 +21,10 @@ const NeedUs = () => {
           <div className="position-absolute need_greenstar animate-this-element">
             <GreenStarSvg />
           </div>
-          <h2 className="ff_bakbak fw-normal text-capitalize fs_lg text-black text_shadow text-center lh_130 mb-sm-5 mb-4">
+          <h2
+            className="ff_bakbak fw-normal text-capitalize fs_lg text-black text_shadow text-center lh_130 mb-sm-5 mb-4"
+            data-aos="zoom-in-up"
+          >
             Why You Need Us
           </h2>
           <div className="d-flex flex-lg-row flex-column gap-lg-0 gap-sm-5 gap-4">
@@ -30,9 +33,10 @@ const NeedUs = () => {
                 src={qualitywork}
                 alt="qualitywork"
                 className="w-100 mw_465 mt-lg-3"
+                data-aos="zoom-in-up"
               />
             </div>
-            <div className="mw_630 px-sm-0 px_12">
+            <div className="mw_630 mw_564 px-sm-0 px_12">
               <div className="position-relative h-100 ms-lg-5">
                 <div className="position-absolute h-100 start-0 top-0 roadmap_line"></div>
                 <Row className="justify-content-between">
@@ -46,10 +50,16 @@ const NeedUs = () => {
                   </Col>
                   <Col className="col-xl-10 col-11">
                     <div className="ps-xl-4 pb-4">
-                      <h3 className="mb-2 pb-1 text-capitalize ff_bakbak fs_sm text-black lh_140">
+                      <h3
+                        className="mb-2 pb-1 text-capitalize ff_bakbak fs_sm text-black lh_140"
+                        data-aos="zoom-in-up"
+                      >
                         Expertise
                       </h3>
-                      <p className="pe-xl-2 mb-0 text-capitalize ff_poppins fs_xs text_black fw-normal lh_150">
+                      <p
+                        className="pe-xl-2 mb-0 text-capitalize ff_poppins fs_xs text_black fw-normal lh_150"
+                        data-aos="zoom-in-up"
+                      >
                         With years of experience in the industry, we bring
                         unparalleled expertise to the table. Our team comprises
                         seasoned professionals who understand the intricacies of
@@ -70,10 +80,16 @@ const NeedUs = () => {
                   </Col>
                   <Col className="col-xl-10 col-11">
                     <div className="ps-xl-4 pb-4">
-                      <h3 className="mb-0 text-capitalize ff_bakbak fs_sm text-black lh_140">
+                      <h3
+                        className="mb-0 text-capitalize ff_bakbak fs_sm text-black lh_140"
+                        data-aos="zoom-in-up"
+                      >
                         Customized Approach
                       </h3>
-                      <p className="pe-xl-2 mb-0 text-capitalize ff_poppins fs_xs text_black fw-normal lh_150">
+                      <p
+                        className="pe-xl-2 mb-0 text-capitalize ff_poppins fs_xs text_black fw-normal lh_150"
+                        data-aos="zoom-in-up"
+                      >
                         We recognize that every business is different. That's
                         why we take a personalized approach to every client
                         engagement. By understanding your brand's specific
@@ -94,10 +110,16 @@ const NeedUs = () => {
                   </Col>
                   <Col className="col-xl-10 col-11">
                     <div className="ps-xl-4 pb-4">
-                      <h3 className="mb-0 text-capitalize ff_bakbak fs_sm text-black lh_140">
+                      <h3
+                        className="mb-0 text-capitalize ff_bakbak fs_sm text-black lh_140"
+                        data-aos="zoom-in-up"
+                      >
                         Seamless Integration
                       </h3>
-                      <p className="pe-xl-2 mb-0 text-capitalize ff_poppins fs_xs text_black fw-normal lh_150">
+                      <p
+                        className="pe-xl-2 mb-0 text-capitalize ff_poppins fs_xs text_black fw-normal lh_150"
+                        data-aos="zoom-in-up"
+                      >
                         Our solutions seamlessly integrate with your existing
                         systems and processes, ensuring minimal disruption to
                         your operations. Whether you're looking to enhance your
@@ -118,10 +140,16 @@ const NeedUs = () => {
                   </Col>
                   <Col className="col-xl-10 col-11">
                     <div className="ps-xl-4 pb-4">
-                      <h3 className="mb-0 text-capitalize ff_bakbak fs_sm text-black lh_140">
+                      <h3
+                        className="mb-0 text-capitalize ff_bakbak fs_sm text-black lh_140"
+                        data-aos="zoom-in-up"
+                      >
                         Data-Driven Insights
                       </h3>
-                      <p className="pe-xl-1 mb-0 text-capitalize ff_poppins fs_xs text_black fw-normal lh_150">
+                      <p
+                        className="pe-xl-1 mb-0 text-capitalize ff_poppins fs_xs text_black fw-normal lh_150"
+                        data-aos="zoom-in-up"
+                      >
                         In today's data-driven world, insights are everything.
                         We leverage advanced analytics and robust data analysis
                         techniques to uncover actionable insights that inform
@@ -135,7 +163,10 @@ const NeedUs = () => {
               </div>
             </div>
           </div>
-          <div className="d-flex justify-content-center pt-lg-5 pt-2 mt-lg-2">
+          <div
+            className="d-flex justify-content-center pt-lg-5 pt-2 mt-lg-2"
+            data-aos="zoom-in-up"
+          >
             <CommonButton btnname="Learn more" />
           </div>
         </Container>

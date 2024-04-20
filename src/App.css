@@ -8,14 +8,50 @@
   text-decoration: none !important;
 }
 
+/* ----------------------------------preloader----------------------------- */
+.prelader {
+  transition: 300ms ease-in;
+  z-index: 9;
+}
+
+.typewriter h1 {
+  letter-spacing: .15em;
+  text-shadow: 2px 2px #bcb6b6;
+  animation:
+    typing 2s steps(40, end),
+    blink-caret 2s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
+}
+
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: orange;
+  }
+}
+
 /* ---------------------------------------back-to-top-------------------------------- */
 .back_to_top {
   position: fixed;
   z-index: 2;
   bottom: 3%;
   right: 2%;
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
   border-radius: 50px;
   -webkit-animation: mover 3000ms infinite ease-in-out !important;
   animation: mover 3000ms infinite ease-in-out !important;
@@ -132,6 +168,10 @@
   color: #C1C9CF;
 }
 
+.text_green {
+  color: #314A60;
+}
+
 .bg_green {
   background: #314A60;
 }
@@ -199,6 +239,7 @@
   box-shadow: 8px 8px 0px 0px #000000;
   border-radius: 12px;
   padding: 6px 18px 6px 22px;
+  max-width: 1207px;
 }
 
 .pagelogo {
@@ -297,10 +338,6 @@
   max-width: 251px;
 }
 
-.pt_slider {
-  padding-top: 61px;
-}
-
 .slick-track {
   padding: 20px 0 20px 0;
 }
@@ -368,13 +405,13 @@
   padding-top: 120px;
 }
 
-.mw_630 {
-  max-width: 630px;
-}
-
 .need_blueimg {
   max-width: 40px;
   top: 35%;
+}
+
+.mw_564 {
+  max-width: 564px;
 }
 
 /* -------------------------Why We're Trusted--------------------- */
@@ -495,9 +532,35 @@ textarea::placeholder {
   border-top: 1px solid #FFFFFF0D
 }
 
-
 .footer_link {
   transition: all 300ms linear;
+}
+
+@media (max-width:1200px) {
+  .py_header {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .pt_service {
+    padding-top: 100px;
+  }
+
+  .pt_need {
+    padding-top: 100px;
+  }
+
+  .pt_trusted {
+    padding-top: 100px;
+  }
+
+  .pt_connect {
+    padding-top: 100px;
+  }
+
+  .pt_footer {
+    padding-top: 100px;
+  }
 }
 
 @media (max-width:992px) {
@@ -567,10 +630,6 @@ textarea::placeholder {
     --fs-lg: 42px;
   }
 
-  .pt_slider {
-    padding-top: unset;
-  }
-
   .pt_footer {
     padding-top: 70px;
   }
@@ -586,6 +645,7 @@ textarea::placeholder {
   .overflow_hidden {
     overflow: hidden;
   }
+
 }
 
 @media (max-width:576px) {
@@ -666,8 +726,16 @@ textarea::placeholder {
     max-width: 1140px !important;
   }
 
+  .pt_slider {
+    padding-top: 61px;
+  }
+
   .h_435 {
     height: 435px;
+  }
+
+  .mw_630 {
+    max-width: 630px;
   }
 }
 
