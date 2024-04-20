@@ -570,6 +570,10 @@ textarea::placeholder {
     opacity: 30% !important;
   }
 
+  .header_green1 {
+    left: 0;
+  }
+
   .responisive_nav {
     flex-direction: column;
     position: fixed;

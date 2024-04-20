@@ -79,14 +79,14 @@ const Header = () => {
             id="home"
             className="align-items-center py_header position-relative"
           >
-            <div className="position-absolute star_opacity start-50 end-50 animate-this-element header_bluestar d-md-block d-none">
+            <div className="position-absolute star_opacity start-50 end-50 animate-this-element header_bluestar d-lg-block d-none">
               <BlueStar />
             </div>
             <Col
               lg={6}
               className="col-12 position-relative d-flex flex-column align-items-center align-items-lg-start"
             >
-              <div className="position-absolute star_opacity animate-this-element  header_green1">
+              <div className="position-absolute star_opacity animate-this-element header_green1">
                 <GreenStarSvg />
               </div>
               <LineSvg />
