@@ -147,7 +147,7 @@ const NeedUs = () => {
                         Data-Driven Insights
                       </h3>
                       <p
-                        className="pe-xl-1 mb-0 text-capitalize ff_poppins fs_xs text_black fw-normal lh_150"
+                        className="pe-xl-1 mb-0 pt-lg-1 text-capitalize ff_poppins fs_xs text_black fw-normal lh_150"
                         data-aos="zoom-in-up"
                       >
                         In today's data-driven world, insights are everything.
