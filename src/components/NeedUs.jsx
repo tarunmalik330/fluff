@@ -3,42 +3,17 @@ import { Container, Row, Col } from "react-bootstrap";
 import qualitywork from "../assets/images/webp/qualitywork.webp";
 import CommonButton from "./common/CommonButton";
 import { BlueStar, GreenStarSvg } from "./common/Icon";
-
-// import { useOverflowHidden } from "./Hooks";
-// import { useEffect } from "react";
+import needblueimg from "../assets/images/webp/needblueimg.webp";
 
 const NeedUs = () => {
-  // const [isOpen, setOpen] = useOverflowHidden(false);
-  // useEffect(() => {
-  //   window.onscroll = function () {
-  //     scrollFunction();
-  //     progressBarScroll();
-  //   };
-  // }, []);
-  // function progressBarScroll() {
-  //   let winScroll =
-  //       document.body.scrollTop || document.documentElement.scrollTop,
-  //     height =
-  //       document.documentElement.scrollHeight -
-  //       document.documentElement.clientHeight,
-  //     scrolled = (winScroll / height) * 100;
-  //   document.getElementById("progressBar").style.width = scrolled + "%";
-  // }
-  // function scrollFunction() {
-  //   if (
-  //     document.body.scrollTop > 40 ||
-  //     document.documentElement.scrollTop > 40
-  //   ) {
-  //     document.getElementById("nav").classList.add("!fixed");
-  //     document.getElementById("nav").classList.add("!z-40");
-  //   } else {
-  //     document.getElementById("nav").classList.remove("!fixed");
-  //     document.getElementById("nav").classList.remove("!z-40");
-  //   }
-  // }
   return (
     <>
-      <div className="pt_need">
+      <div className="pt_need position-relative">
+        <img
+          src={needblueimg}
+          alt="needblueimg"
+          className="position-absolute start-0 w-100 need_blueimg d-md-block d-none"
+        />
         <Container className="custom_container position-relative">
           <div className="position-absolute need_bluestar animate-this-element end-0">
             <BlueStar />
@@ -146,7 +121,7 @@ const NeedUs = () => {
                       <h3 className="mb-0 text-capitalize ff_bakbak fs_sm text-black lh_140">
                         Data-Driven Insights
                       </h3>
-                      <p className="pe-xl-2 mb-0 text-capitalize ff_poppins fs_xs text_black fw-normal lh_150">
+                      <p className="pe-xl-1 mb-0 text-capitalize ff_poppins fs_xs text_black fw-normal lh_150">
                         In today's data-driven world, insights are everything.
                         We leverage advanced analytics and robust data analysis
                         techniques to uncover actionable insights that inform

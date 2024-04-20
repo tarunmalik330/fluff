@@ -63,7 +63,7 @@ const GetConnect = () => {
                 />
               </div>
               <textarea
-                className="w-100"
+                className="w-100 ff_outfit text-capitalize fw-normal fs_xs text_black"
                 name="Message"
                 placeholder="Message"
                 id=""

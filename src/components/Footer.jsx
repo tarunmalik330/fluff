@@ -13,7 +13,7 @@ const Footer = () => {
             className="w-100 mw_594 translate_y"
           />
         </div>
-        <div className="bg_green pt_67">
+        <div className="bg_green footer_spacing">
           <Container className="custom_container">
             <div className="py-3 footer_line d-flex align-items-center align-items-sm-start justify-content-between flex-sm-row flex-column-reverse">
               <p className="mb-0 text_grey ff_poppins text-capitalize fs_xs fw-normal lh_150 pt-sm-0 pt-4">

@@ -99,6 +99,10 @@
   gap: 6px;
 }
 
+.gap_10 {
+  gap: 10px;
+}
+
 .gap_14 {
   gap: 14px;
 }
@@ -187,7 +191,7 @@
 
 .header_green2 {
   right: -17%;
-  animation: name-of-animation 6s infinite !important;
+  animation: name-of-animation 8s infinite !important;
 }
 
 .nav_bar {
@@ -324,6 +328,10 @@
   max-width: 447px;
 }
 
+.service_green {
+  max-width: 60px;
+}
+
 /* ------------------------------need us---------------------------- */
 .mw_465 {
   max-width: 465px;
@@ -364,6 +372,11 @@
   max-width: 630px;
 }
 
+.need_blueimg {
+  max-width: 40px;
+  top: 35%;
+}
+
 /* -------------------------Why We're Trusted--------------------- */
 .trusted_star {
   left: -17%;
@@ -378,6 +391,7 @@
   max-width: 558px;
   transition: all 300ms linear;
   border: 1px solid transparent;
+  min-height: 304px;
 }
 
 .trusted_card:hover {
@@ -400,6 +414,10 @@
 
 .pt_trusted {
   padding-top: 131.2px;
+}
+
+.truster_green {
+  max-width: 70px;
 }
 
 /* ---------------------------get connect---------------------- */
@@ -465,7 +483,7 @@ textarea::placeholder {
   max-width: 594px;
 }
 
-.pt_67 {
+.footer_spacing {
   padding-top: 67px;
 }
 
@@ -483,6 +501,20 @@ textarea::placeholder {
 }
 
 @media (max-width:992px) {
+
+  .header_bluestar,
+  .header_green1,
+  .header_green2,
+  .connect_greenstar,
+  .connect_bluestar,
+  .need_greenstar,
+  .need_greenstar,
+  .service_star,
+  .we_bluestar,
+  .we_greenstar {
+    opacity: 30% !important;
+  }
+
   .responisive_nav {
     flex-direction: column;
     position: fixed;
@@ -557,17 +589,9 @@ textarea::placeholder {
 }
 
 @media (max-width:576px) {
-  .header_bluestar,
-  .header_green1,
-  .header_green2,
-  .connect_greenstar,
-  .connect_bluestar,
-  .need_greenstar,
-  .need_greenstar,
-  .service_star,
-  .we_bluestar,
-  .we_greenstar {
-    opacity: 40% !important;
+  .roadmap_circle {
+    width: 30px;
+    height: 30px;
   }
 
   .mw_497 {
@@ -624,8 +648,8 @@ textarea::placeholder {
     max-width: 302px;
   }
 
-  .pt_67 {
-    padding-top: 50px;
+  .footer_spacing {
+    padding-top: 40px;
   }
 
   :root {

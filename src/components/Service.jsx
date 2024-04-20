@@ -2,18 +2,24 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { FoodSvg, HealthSvg, BeautySvg, PetSvg, BlueStar } from "./common/Icon";
 import serviceimg from "../assets/images/webp/serviceimg.webp";
+import servicegreenimg from "../assets/images/webp/servicegreenimg.webp";
 
 const Service = () => {
   return (
     <>
-      <div className="pt_service">
+      <div className="pt_service position-relative">
+        <img
+          src={servicegreenimg}
+          alt="servicegreenimg"
+          className="position-absolute service_green end-0 top-0 w-100"
+        />
         <Container className="custom_container position-relative">
           <div className="position-absolute service_star animate-this-element">
             <BlueStar />
           </div>
           <Row className="align-items-center flex-lg-row flex-column-reverse justify-content-lg-between justify-content-center">
             <Col
-              lg={5}
+              lg={6}
               className="col-12 pt-lg-0 pt-4 d-flex flex-column align-items-lg-start align-items-center"
             >
               <p className="ff_bakbak fw-normal text-capitalize fs_md lh_130 mb-3 text_lightblack">
@@ -54,10 +60,7 @@ const Service = () => {
                 </p>
               </div>
             </Col>
-            <Col
-              lg={5}
-              className="col-11 d-flex justify-content-center justify-content-lg-start"
-            >
+            <Col lg={5} className="col-11 d-flex justify-content-center">
               <img src={serviceimg} alt="serviceimg" className="w-100 mw_447" />
             </Col>
           </Row>

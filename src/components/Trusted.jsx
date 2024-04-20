@@ -1,13 +1,19 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { trustedcard } from "./common/MapData";
 import trustedimg from "../assets/images/webp/trustedimg.webp";
 import { GreenStarSvg } from "./common/Icon";
+import servicegreenimg from "../assets/images/webp/servicegreenimg.webp";
 
 const Trusted = () => {
   return (
     <>
-      <div id="pricing" className="pt_trusted">
+      <div id="pricing" className="pt_trusted position-relative">
+        <img
+          src={servicegreenimg}
+          alt="servicegreenimg"
+          className="position-absolute truster_green end-0 top-50 w-100"
+        />
         <Container className="custom_container">
           <h2 className="ff_bakbak fw-normal text-capitalize fs_lg text-black text_shadow text-center lh_130 mb-lg-5 mb-4">
             Why We're Trusted

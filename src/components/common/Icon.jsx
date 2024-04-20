@@ -50,7 +50,7 @@ export const GreenStar = () => {
 export const LineSvg = () => {
   return (
     <svg
-      className="position-absolute heading_line"
+      className="position-absolute d-lg-block d-none heading_line"
       width="51"
       height="47"
       viewBox="0 0 51 47"

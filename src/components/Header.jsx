@@ -6,13 +6,8 @@ import Col from "react-bootstrap/Col";
 import pagelogo from "../assets/images/webp/pagelogo.webp";
 import CommonButton from "./common/CommonButton";
 import Hamburger from "hamburger-react";
-import {
-  GreenStar,
-  BtnSvg,
-  LineSvg,
-  BlueStar,
-  GreenStarSvg,
-} from "./common/Icon";
+import getbtnimg from "../assets/images/svg/getbtnimg.svg";
+import { GreenStar, LineSvg, BlueStar, GreenStarSvg } from "./common/Icon";
 import headerimg from "../assets/images/webp/headerimg.webp";
 
 const Header = () => {
@@ -105,14 +100,15 @@ const Header = () => {
               <h1 className="pt-lg-1 ff_bakbak fw-normal fs_xl text-black lh_120 text_shadow mb-3 text-center text-lg-start">
                 We help turn your customers into superfans
               </h1>
-              <p className="pt-1 ff_poppins fw-normal fs_xs text_black lh_150 mb-3 text-capitalize">
+              <p className="pt-1 ff_poppins fw-normal text-lg-start text-center fs_xs text_black lh_150 mb-3 text-capitalize">
                 <span className="d-lg-block">
                   CX so good, it'll make your mom proud and your
                 </span>{" "}
                 competition nervous!
               </p>
-              <button className="text-capitalize text-white ff_bakbak fw-normal fs_xs lh_150 common_btn mt-lg-3">
+              <button className="text-capitalize text-white ff_bakbak fw-normal fs_xs lh_150 common_btn mt-lg-3 d-flex align-items-center gap_10">
                 Get Started
+                <img src={getbtnimg} alt="getbtnimg" />
               </button>
             </Col>
             <Col
