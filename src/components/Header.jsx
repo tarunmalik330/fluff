@@ -35,7 +35,7 @@ const Header = () => {
               >
                 <li onClick={() => setshow(!show)}>
                   <a
-                    className="ff_poppins fw-normal fs_xs nav_link lh_150"
+                    className="ff_poppins fw-normal fs_xs text_black nav_link lh_150"
                     href="#home"
                   >
                     Home
@@ -43,7 +43,7 @@ const Header = () => {
                 </li>
                 <li onClick={() => setshow(!show)}>
                   <a
-                    className="ff_poppins fw-normal fs_xs nav_link lh_150"
+                    className="ff_poppins fw-normal text_black fs_xs nav_link lh_150"
                     href="#about"
                   >
                     About
@@ -51,7 +51,7 @@ const Header = () => {
                 </li>
                 <li onClick={() => setshow(!show)}>
                   <a
-                    className="ff_poppins fw-normal fs_xs nav_link lh_150"
+                    className="ff_poppins fw-normal text_black fs_xs nav_link lh_150"
                     href="#pricing"
                   >
                     Pricing
