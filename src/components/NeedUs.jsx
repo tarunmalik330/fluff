@@ -22,7 +22,7 @@ const NeedUs = () => {
             <GreenStarSvg />
           </div>
           <h2
-            className="ff_bakbak fw-normal text-capitalize fs_lg text-black text_shadow text-center lh_130 mb-sm-5 mb-4"
+            className="ff_bakbak fw-normal text-capitalize fs_lg text-black text_shadow text-center lh_130 mb-lg-5 mb-4"
             data-aos="zoom-in-up"
           >
             Why You Need Us

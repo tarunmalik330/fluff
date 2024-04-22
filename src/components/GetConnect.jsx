@@ -14,7 +14,7 @@ const GetConnect = () => {
             <GreenStarSvg />
           </div>
           <h2
-            className="ff_bakbak fw-normal fs_lg text-black text_shadow text-center lh_130 mb-lg-5 mb-4"
+            className="ff_bakbak fw-normal fs_lg text-black text_shadow text-center lh_130 mb-md-5 mb-4"
             data-aos="zoom-in-up"
           >
             Get Connect With Us
