@@ -13,7 +13,7 @@ const NeedUs = () => {
       const scrollTotal =
         document.documentElement.scrollHeight - window.innerHeight;
       const scrolled = window.scrollY;
-      const progress = (scrolled / scrollTotal) * 65;
+      const progress = (scrolled / scrollTotal) * 100;
       setScrollProgress(progress);
     };
     window.addEventListener("scroll", handleScroll);

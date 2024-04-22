@@ -585,6 +585,10 @@ textarea {
     max-width: unset;
   }
 
+  .roadmap_line {
+    left: 2%;
+  }
+
   .pt_service,
   .pt_trusted,
   .pt_connect,
