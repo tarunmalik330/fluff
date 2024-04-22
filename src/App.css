@@ -387,13 +387,14 @@
   top: 5%;
 }
 
+/* 
 .roadmap {
   width: 4px;
   height: 100%;
   background: #bfe6ef;
   left: 50%;
   transform: translateX(-50%);
-}
+} */
 
 .roadmap_circle {
   width: 40px;
@@ -402,6 +403,14 @@
   background: #bfe6ef;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.roadmap_line {
+  top: 2%;
+  left: 6%;
+  bottom: -5%;
+  background-color: #BFE6EF;
+  width: 4px;
 }
 
 .pt_need {
@@ -526,6 +535,10 @@ textarea {
   .pt_footer {
     padding-top: 100px;
   }
+
+  .roadmap_line {
+    left: -2%;
+  }
 }
 
 @media (max-width:992px) {
@@ -645,6 +658,10 @@ textarea {
 
   .gap_97 {
     gap: 40px;
+  }
+
+  .roadmap_line {
+    left: 0;
   }
 
   .service_icon svg {
