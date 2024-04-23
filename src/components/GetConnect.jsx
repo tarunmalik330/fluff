@@ -20,8 +20,12 @@ const GetConnect = () => {
             Get Connect With Us
           </h2>
           <div className="d-flex justify-content-between align-items-center gap-xl-0 gap-5 flex-lg-row flex-column">
-            <div className="mw_402 w-100" data-aos="zoom-in-up">
-              <img src={connectimg} alt="connectimg" className="mw_402" />
+            <div className="connect_img w-100" data-aos="zoom-in-up">
+              <img
+                src={connectimg}
+                alt="connectimg"
+                className="connect_img w-100"
+              />
             </div>
             <div
               className="form_width w-100 d-flex gap_18 flex-column"
