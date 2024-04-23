@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import qualitywork from "../assets/images/webp/qualitywork.webp";
 import CommonButton from "./common/CommonButton";

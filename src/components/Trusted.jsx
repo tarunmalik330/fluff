@@ -1,4 +1,3 @@
-import React from "react";
 import { Container } from "react-bootstrap";
 import { trustedcard } from "./common/MapData";
 import trustedimg from "../assets/images/webp/trustedimg.webp";
