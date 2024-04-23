@@ -42,7 +42,7 @@ const Trusted = () => {
                 );
               })}
             </div>
-            <div className="mw_497 d-flex justify-content-lg-end justify-content-center">
+            <div className="mw_497 mw_310 d-flex justify-content-lg-end justify-content-center">
               <img
                 src={trustedimg}
                 alt="trustedimg"
