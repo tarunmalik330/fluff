@@ -387,15 +387,6 @@
   top: 5%;
 }
 
-/* 
-.roadmap {
-  width: 4px;
-  height: 100%;
-  background: #bfe6ef;
-  left: 50%;
-  transform: translateX(-50%);
-} */
-
 .roadmap_circle {
   width: 40px;
   height: 40px;
