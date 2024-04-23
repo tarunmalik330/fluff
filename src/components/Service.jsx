@@ -43,7 +43,7 @@ const Service = () => {
                 </span>
                 of customer behavior.
               </p>
-              <div className="d-flex gap_97 mb-5" data-aos="zoom-in-up">
+              <div className="d-flex gap_97 gap_40 mb-5" data-aos="zoom-in-up">
                 <p className="ff_bakbak fw-normal fs_sm text-capitalize text-black lh_140 mb-0 d-flex align-items-center gap-2 gap-lg-3">
                   <span className="service_icon cursor_pointer">
                     <FoodSvg />
@@ -57,7 +57,10 @@ const Service = () => {
                   Health
                 </p>
               </div>
-              <div className="d-flex gap_97 mb-lg-5 mb-4" data-aos="zoom-in-up">
+              <div
+                className="d-flex gap_97 gap_40 mb-lg-5 mb-4"
+                data-aos="zoom-in-up"
+              >
                 <p className="ff_bakbak text-capitalize fw-normal fs_sm text-black lh_140 mb-0 d-flex align-items-center gap-2 gap-lg-3">
                   <span className="service_icon cursor_pointer">
                     <BeautySvg />
