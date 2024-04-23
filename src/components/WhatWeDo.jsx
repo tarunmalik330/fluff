@@ -17,7 +17,7 @@ const WhatWeDo = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3.10,
+          slidesToShow: 3.1,
         },
       },
       {
@@ -87,10 +87,10 @@ const WhatWeDo = () => {
       </div>
       <div className="pt-lg-4 pt-md-4 pt-0 mt-lg-1 overflow-hidden">
         <Slider {...settings}>
-          {slidedata.map((slides, e) => {
+          {slidedata.map((slides, index) => {
             return (
               <>
-                <div className="px_12" key={e}>
+                <div className="px_12" key={index}>
                   <div className="slide_card cursor_pointer d-flex h-100 w-100 flex-column justify-content-center align-items-center">
                     {slides.svg}
                     <p className="pt-1 mt-2 mb-2 ff_bakbak text-capitalize fs_sm text-black lh_140 text-center">
