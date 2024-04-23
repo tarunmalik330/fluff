@@ -20,9 +20,9 @@ const Footer = () => {
                 Copyright © {new Date().getFullYear()} FLUFF All Rights reserved
               </p>
               <div className="d-flex gap_14">
-                {footerlink.map((icon, e) => {
+                {footerlink.map((icon, index) => {
                   return (
-                    <div key={e}>
+                    <div key={index}>
                       <a
                         className="footer_link"
                         href={icon.link}
