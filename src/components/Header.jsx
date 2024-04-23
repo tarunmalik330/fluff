@@ -59,11 +59,11 @@ const Header = () => {
                 </li>
                 <li className="d-lg-none d-block">
                   {" "}
-                  <CommonButton btnname="Contact us" />
+                  <CommonButton BtnName="Contact us" />
                 </li>
               </ul>
               <div className="d-lg-block d-none">
-                <CommonButton btnname="Contact us" />
+                <CommonButton BtnName="Contact us" />
               </div>
               <div
                 onClick={() => setshow(!show)}

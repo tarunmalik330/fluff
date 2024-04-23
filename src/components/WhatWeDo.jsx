@@ -18,42 +18,36 @@ const WhatWeDo = () => {
         breakpoint: 1024,
         settings: {
           slidesToShow: 3.10,
-          slidesToScroll: 1,
         },
       },
       {
         breakpoint: 1185,
         settings: {
           slidesToShow: 2.54,
-          slidesToScroll: 1,
         },
       },
       {
         breakpoint: 790,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1,
         },
       },
       {
         breakpoint: 670,
         settings: {
           slidesToShow: 1.54,
-          slidesToScroll: 1,
         },
       },
       {
         breakpoint: 460,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1,
         },
       },
       {
         breakpoint: 530,
         settings: {
           slidesToShow: 1.2,
-          slidesToScroll: 1,
         },
       },
     ],

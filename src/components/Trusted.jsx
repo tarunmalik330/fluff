@@ -29,9 +29,9 @@ const Trusted = () => {
               <div className="position-absolute star_opacity trusted_star animate-this-element">
                 <GreenStarSvg />
               </div>
-              {trustedcard.map((card, a) => {
+              {trustedcard.map((card, id) => {
                 return (
-                  <div key={a} className="trusted_card h-100 cursor_pointer">
+                  <div key={id} className="trusted_card h-100 cursor_pointer">
                     <h3 className="ff_bakbak fw-normal fs_sm text-black lh_140 mb-3">
                       {card.heading}
                     </h3>
