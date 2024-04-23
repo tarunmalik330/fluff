@@ -5,6 +5,7 @@ import CommonButton from "./common/CommonButton";
 import { BlueStar, GreenStarSvg } from "./common/Icon";
 import needblueimg from "../assets/images/webp/needblueimg.webp";
 import { useState, useEffect } from "react";
+import { roadmapdata } from "./common/MapData";
 
 const NeedUs = () => {
   const [scrollProgress, setScrollProgress] = useState(0);
@@ -54,95 +55,38 @@ const NeedUs = () => {
             <div className="mw_630 mw_564 px-sm-0 px_12">
               <div className="position-relative h-100 ms-lg-5">
                 <div className="position-relative">
-                  <Row className="justify-content-between">
-                    <Col className="col-xl-2 col-1 position-relative z-3">
-                      <div className="position-absolute roadmap_circle d-flex justify-content-center align-items-center">
-                        <p className="ff_bakbak fw-normal fs_md text-black lh_130 text-center mb-0">
-                          1
-                        </p>
-                      </div>
-                    </Col>
-                    <Col className="col-xl-10 col-11">
-                      <div className="ps-xl-4 pb-4">
-                        <h3
-                          className="mb-2 pb-1 text-capitalize ff_bakbak fs_sm text-black lh_140"
-                          data-aos="zoom-in-up"
-                        >
-                          Expertise
-                        </h3>
-                        <p
-                          className="pe-xl-2 mb-0 mt-lg-1 text-capitalize ff_poppins fs_xs text_black fw-normal lh_150"
-                          data-aos="zoom-in-up"
-                        >
-                          With years of experience in the industry, we bring
-                          unparalleled expertise to the table. Our team
-                          comprises seasoned professionals who understand the
-                          intricacies of customer behavior, enabling us to craft
-                          strategies tailored to your unique business needs.
-                        </p>
-                      </div>
-                    </Col>
-                  </Row>
-                  <Row className="justify-content-between">
-                    <Col className="col-xl-2 col-1 position-relative z-3">
-                      <div className="position-absolute roadmap_circle d-flex justify-content-center align-items-center">
-                        <p className="ff_bakbak fw-normal fs_md text-black lh_130 text-center mb-0">
-                          2
-                        </p>
-                      </div>
-                    </Col>
-                    <Col className="col-xl-10 col-11">
-                      <div className="ps-xl-4 pb-4">
-                        <h3
-                          className="mb-2 text-capitalize ff_bakbak fs_sm text-black lh_140"
-                          data-aos="zoom-in-up"
-                        >
-                          Customized Approach
-                        </h3>
-                        <p
-                          className="pe-xl-2 mb-0 mt-lg-1 text-capitalize ff_poppins fs_xs text_black fw-normal lh_150"
-                          data-aos="zoom-in-up"
-                        >
-                          We recognize that every business is different. That's
-                          why we take a personalized approach to every client
-                          engagement. By understanding your brand's specific
-                          challenges and goals, we develop bespoke strategies
-                          that align with your vision and objectives.
-                        </p>
-                      </div>
-                    </Col>
-                  </Row>
-                  <Row className="justify-content-between">
-                    <Col className="col-xl-2 col-1 position-relative z-3">
-                      <div className="position-absolute roadmap_circle d-flex justify-content-center align-items-center">
-                        <p className="ff_bakbak fw-normal fs_md text-black lh_130 text-center mb-0">
-                          3
-                        </p>
-                      </div>
-                    </Col>
-                    <Col className="col-xl-10 col-11">
-                      <div className="ps-xl-4 pb-4">
-                        <h3
-                          className="mb-2 text-capitalize ff_bakbak fs_sm text-black lh_140"
-                          data-aos="zoom-in-up"
-                        >
-                          Seamless Integration
-                        </h3>
-                        <p
-                          className="pe-xl-2 mt-lg-1 mb-0 text-capitalize ff_poppins fs_xs text_black fw-normal lh_150"
-                          data-aos="zoom-in-up"
-                        >
-                          Our solutions seamlessly integrate with your existing
-                          systems and processes, ensuring minimal disruption to
-                          your operations. Whether you're looking to enhance
-                          your online presence, streamline your customer service
-                          channels, or optimize your sales funnel, we've got you
-                          covered.
-                        </p>
-                      </div>
-                    </Col>
-                  </Row>
-                  <div className="position-absolute h-100 z-1 roadmap_line">
+                  {roadmapdata.map((roadmap, id) => {
+                    return (
+                      <>
+                        <Row key={id} className="justify-content-between">
+                          <Col className="col-xl-2 col-1 position-relative z-3">
+                            <div className="position-absolute roadmap_circle d-flex justify-content-center align-items-center">
+                              <p className="ff_bakbak fw-normal fs_md text-black lh_130 text-center mb-0">
+                                {roadmap.id}
+                              </p>
+                            </div>
+                          </Col>
+                          <Col className="col-xl-10 col-11">
+                            <div className="ps-xl-1 pb-4">
+                              <h3
+                                className="mb-2 pb-1 text-capitalize ff_bakbak fs_sm text-black lh_140"
+                                data-aos="zoom-in-up"
+                              >
+                                {roadmap.heading}
+                              </h3>
+                              <p
+                                className="pe-xl-2 mb-0 mt-lg-1 text-capitalize ff_poppins fs_xs text_black fw-normal lh_150"
+                                data-aos="zoom-in-up"
+                              >
+                                {roadmap.paragraph}
+                              </p>
+                            </div>
+                          </Col>
+                        </Row>
+                      </>
+                    );
+                  })}
+                  <div className="position-absolute z-1 roadmap_line">
                     <div
                       style={{
                         height: `${scrollProgress}%`,
@@ -152,36 +96,6 @@ const NeedUs = () => {
                     />
                   </div>
                 </div>
-                <Row className="justify-content-between">
-                  <Col className="col-xl-2 col-1 position-relative">
-                    <div className="position-absolute roadmap_circle d-flex justify-content-center align-items-center">
-                      <p className="ff_bakbak fw-normal fs_md text-black lh_130 text-center mb-0">
-                        4
-                      </p>
-                    </div>
-                  </Col>
-                  <Col className="col-xl-10 col-11">
-                    <div className="ps-xl-4 pb-4">
-                      <h3
-                        className="mb-2 text-capitalize ff_bakbak fs_sm text-black lh_140"
-                        data-aos="zoom-in-up"
-                      >
-                        Data-Driven Insights
-                      </h3>
-                      <p
-                        className="pe-xl-1 mb-0 mt-lg-1 text-capitalize ff_poppins fs_xs text_black fw-normal lh_150"
-                        data-aos="zoom-in-up"
-                      >
-                        In today's data-driven world, insights are everything.
-                        We leverage advanced analytics and robust data analysis
-                        techniques to uncover actionable insights that inform
-                        our strategies. By harnessing the power of data, we help
-                        you make informed decisions that drive meaningful
-                        outcomes.
-                      </p>
-                    </div>
-                  </Col>
-                </Row>
               </div>
             </div>
           </div>

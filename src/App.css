@@ -237,6 +237,10 @@
   color: white !important;
 }
 
+.mw_1920 {
+  max-width: 1920px;
+}
+
 /* ---------------------------header------------------ */
 .header_bluestar {
   top: 10%;
@@ -398,6 +402,7 @@
   bottom: -5%;
   background-color: #BFE6EF;
   width: 4px;
+  height: 75%;
 }
 
 .pt_need {

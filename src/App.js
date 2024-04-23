@@ -58,7 +58,7 @@ function App() {
         <Loader />
       ) : (
         <>
-          <div className='overflow-hidden'>
+          <div className='overflow-hidden mx-auto mw_1920'>
             <Header />
             <WhatWeDo />
             <Service />
