@@ -29,7 +29,7 @@ const GetConnect = () => {
               />
             </div>
             <div className="form_width w-100" data-aos="zoom-in-up">
-              <form className="d-flex gap_18 flex-column align-items-start">
+              <form className="d-flex gap_18 flex-column align-items-lg-start align-items-center">
                 <div className="d-flex gap_18 w-100">
                   <input
                     required
