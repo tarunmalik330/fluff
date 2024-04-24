@@ -1,7 +1,6 @@
 import { Container } from "react-bootstrap";
 import connectimg from "../assets/images/webp/connectimg.webp";
 import { BlueStar, GreenStarSvg } from "./common/Icon";
-import CommonButton from "./common/CommonButton";
 
 const GetConnect = () => {
   return (
