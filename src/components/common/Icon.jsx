@@ -14,7 +14,6 @@ export const GreenStar = () => {
     </svg>
   );
 };
-// export const BtnSvg = () => {
 //   return (
 //     <svg
 //       width="24"
