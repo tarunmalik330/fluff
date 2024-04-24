@@ -1,6 +1,7 @@
 import { Container } from "react-bootstrap";
 import connectimg from "../assets/images/webp/connectimg.webp";
 import { BlueStar, GreenStarSvg } from "./common/Icon";
+import CommonButton from "./common/CommonButton";
 
 const GetConnect = () => {
   return (
@@ -27,58 +28,71 @@ const GetConnect = () => {
                 className="connect_img w-100"
               />
             </div>
-            <div
-              className="form_width w-100 d-flex gap_18 flex-column"
-              data-aos="zoom-in-up"
-            >
-              <div className="d-flex gap_18">
+            <div className="form_width w-100" data-aos="zoom-in-up">
+              <form className="d-flex gap_18 flex-column align-items-start">
+                <div className="d-flex gap_18 w-100">
+                  <input
+                    required
+                    type="text"
+                    placeholder="Your name"
+                    className="ff_outfit mw_314 fw-normal fs_xs text_black lh_150 w-100"
+                  />
+                  <input
+                    required
+                    type="text"
+                    placeholder="Email Address"
+                    className="ff_outfit mw_314 text-capitalize fw-normal fs_xs text_black lh_150 w-100"
+                  />
+                </div>
+                <div className="d-flex gap_18 w-100">
+                  <input
+                    required
+                    type="text"
+                    placeholder="Company Size"
+                    className="ff_outfit mw_314 text-capitalize fw-normal fs_xs text_black lh_150 w-100"
+                  />
+                  <input
+                    required
+                    type="text"
+                    placeholder="Company Name"
+                    className="ff_outfit mw_314 text-capitalize fw-normal fs_xs text_black lh_150 w-100"
+                  />
+                </div>
                 <input
+                  required
                   type="text"
-                  placeholder="Your name"
-                  className="ff_outfit mw_314 fw-normal fs_xs text_black lh_150 w-100"
+                  placeholder="Website URL"
+                  className="ff_outfit text-capitalize fw-normal fs_xs text_black lh_150 w-100"
                 />
-                <input
-                  type="text"
-                  placeholder="Email Address"
-                  className="ff_outfit mw_314 text-capitalize fw-normal fs_xs text_black lh_150 w-100"
-                />
-              </div>
-              <div className="d-flex gap_18">
-                <input
-                  type="text"
-                  placeholder="Company Size"
-                  className="ff_outfit mw_314 text-capitalize fw-normal fs_xs text_black lh_150 w-100"
-                />
-                <input
-                  type="text"
-                  placeholder="Company Name"
-                  className="ff_outfit mw_314 text-capitalize fw-normal fs_xs text_black lh_150 w-100"
-                />
-              </div>
-              <input
-                type="text"
-                placeholder="Website URL"
-                className="ff_outfit text-capitalize fw-normal fs_xs text_black lh_150 w-100"
-              />
-              <div className="d-flex gap_18">
-                <input
-                  type="text"
-                  placeholder="Budget"
-                  className="ff_outfit mw_314 text-capitalize fw-normal fs_xs text_black lh_150 w-100"
-                />
-                <input
-                  type="text"
-                  placeholder="Industry"
-                  className="ff_outfit mw_314 text-capitalize fw-normal fs_xs text_black lh_150 w-100"
-                />
-              </div>
-              <textarea
-                className="w-100 ff_outfit text-capitalize fw-normal fs_xs text_black"
-                name="Message"
-                placeholder="Message"
-                id=""
-                rows="4"
-              ></textarea>
+                <div className="d-flex gap_18 w-100">
+                  <input
+                    required
+                    type="text"
+                    placeholder="Budget"
+                    className="ff_outfit mw_314 text-capitalize fw-normal fs_xs text_black lh_150 w-100"
+                  />
+                  <input
+                    required
+                    type="text"
+                    placeholder="Industry"
+                    className="ff_outfit mw_314 text-capitalize fw-normal fs_xs text_black lh_150 w-100"
+                  />
+                </div>
+                <textarea
+                  required
+                  className="w-100 ff_outfit text-capitalize fw-normal fs_xs text_black mb-md-4"
+                  name="Message"
+                  placeholder="Message"
+                  id=""
+                  rows="4"
+                ></textarea>
+                <button
+                  type="Submit"
+                  className="text-capitalize text-white ff_bakbak fw-normal fs_xs lh_150 common_btn"
+                >
+                  Submit
+                </button>
+              </form>
             </div>
           </div>
         </Container>
