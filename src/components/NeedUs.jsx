@@ -56,33 +56,31 @@ const NeedUs = () => {
                 <div className="position-relative">
                   {roadmapdata.map((roadmap, id) => {
                     return (
-                      <>
-                        <Row key={id} className="justify-content-between">
-                          <Col className="col-xl-2 col-1 position-relative z-3">
-                            <div className="position-absolute roadmap_circle d-flex justify-content-center align-items-center">
-                              <p className="ff_bakbak fw-normal fs_md text-black lh_130 text-center mb-0">
-                                {roadmap.id}
-                              </p>
-                            </div>
-                          </Col>
-                          <Col className="col-xl-10 col-11">
-                            <div className="ps-xl-1 pb-4">
-                              <h3
-                                className="mb-2 pb-1 text-capitalize ff_bakbak fs_sm text-black lh_140"
-                                data-aos="zoom-in-up"
-                              >
-                                {roadmap.heading}
-                              </h3>
-                              <p
-                                className="pe-xl-2 mb-0 mt-lg-1 text-capitalize ff_poppins fs_xs text_black fw-normal lh_150"
-                                data-aos="zoom-in-up"
-                              >
-                                {roadmap.paragraph}
-                              </p>
-                            </div>
-                          </Col>
-                        </Row>
-                      </>
+                      <Row key={id} className="justify-content-between">
+                        <Col className="col-xl-2 col-1 position-relative z-3">
+                          <div className="position-absolute roadmap_circle d-flex justify-content-center align-items-center">
+                            <p className="ff_bakbak fw-normal fs_md text-black lh_130 text-center mb-0">
+                              {roadmap.id}
+                            </p>
+                          </div>
+                        </Col>
+                        <Col className="col-xl-10 col-11">
+                          <div className="ps-xl-1 pb-4">
+                            <h3
+                              className="mb-2 pb-1 text-capitalize ff_bakbak fs_sm text-black lh_140"
+                              data-aos="zoom-in-up"
+                            >
+                              {roadmap.heading}
+                            </h3>
+                            <p
+                              className="pe-xl-2 mb-0 mt-lg-1 text-capitalize ff_poppins fs_xs text_black fw-normal lh_150"
+                              data-aos="zoom-in-up"
+                            >
+                              {roadmap.paragraph}
+                            </p>
+                          </div>
+                        </Col>
+                      </Row>
                     );
                   })}
                   <div className="position-absolute z-1 roadmap_line">
@@ -97,7 +95,7 @@ const NeedUs = () => {
                 </div>
               </div>
             </div>
-          </div>            
+          </div>
           <div
             className="d-flex justify-content-center pt-lg-5 pt-sm-2 mt-lg-2"
             data-aos="zoom-in-up"

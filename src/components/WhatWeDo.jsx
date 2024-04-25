@@ -87,23 +87,21 @@ const WhatWeDo = () => {
       </div>
       <div className="pt-lg-4 pt-md-4 pt-0 mt-lg-1 overflow-hidden">
         <Slider {...settings}>
-          {slidedata.map((slides, index) => {
+          {slidedata.map((slides, id) => {
             return (
-              <>
-                <div className="px_12" key={index}>
-                  <div className="slide_card cursor_pointer d-flex h-100 w-100 flex-column justify-content-center align-items-center">
-                    {slides.svg}
-                    <p className="pt-1 mt-2 mb-2 ff_bakbak text-capitalize fs_sm text-black lh_140 text-center">
-                      {slides.heading}
-                    </p>
-                    <p
-                      className={`${slides.textwidth} ff_poppins text-capitalize fw-normal fs_xs text_black text-center lh_150`}
-                    >
-                      {slides.paragraph}
-                    </p>
-                  </div>
+              <div key={id} className="px_12">
+                <div className="slide_card cursor_pointer d-flex h-100 w-100 flex-column justify-content-center align-items-center">
+                  {slides.svg}
+                  <p className="pt-1 mt-2 mb-2 ff_bakbak text-capitalize fs_sm text-black lh_140 text-center">
+                    {slides.heading}
+                  </p>
+                  <p
+                    className={`${slides.textwidth} ff_poppins text-capitalize fw-normal fs_xs text_black text-center lh_150`}
+                  >
+                    {slides.paragraph}
+                  </p>
                 </div>
-              </>
+              </div>
             );
           })}
         </Slider>
